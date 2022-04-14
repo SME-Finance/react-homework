@@ -21,8 +21,8 @@ Make an integration with an API (or use fake Promise-based requests in FE), mana
 ### Technical Requirements
 * Use a 3rd party tool to create a simple MOCK API (example of a 3rd party provider -> https://www.mockaroo.com/apis; or -> https://www.mocks-server.org/); or you can create a very basic Backend application that has 1 endpoint (example route: /api/company/all) that'd return hard-coded JSON response with random company data. (you can use any tech you want: NodeJS(Express) and so on.)
 * Required packages: `react` and `react-dom`. The rest is up to your imagination.
+* Unit tests.
 * Typescript (optional).
-* Unit tests (optional).
 * Styling and UI component libraries: you're free to use anything you want (except plain CSS).
 * Use any libraries you see fit (for API integration, form state management, form validation and so on). You have complete freedom to show off your skills here.
 * Browser support: Chrome and Firefox (don't worry about Safari/Edge/Opera/others here).
