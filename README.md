@@ -15,8 +15,8 @@ Make a simple form that consists of 2 fields:
 Make an integration with an API (or use fake Promise-based requests in FE), manage the form's state and form's field validation (in any way you want).
 
 ### Business requirements
-1. Company code / ID field should have digits-only and 9 digits validation rules (according to Lithuania's company code pattern; example: `304254910`.
-2. When user correctly fills `Company code / ID` field, a request to the API should be made to GET company data by company ID; response should be mocked with a 3rd party API or your own very basic Backend MOCK API (you can use anything).
+1. `Company code / ID` field should have digits-only and 9 digits validation rules (according to Lithuania's company code pattern; example: `304254910`).
+2. When user correctly fills `Company code / ID` field, a request to the API should be made to GET company data by company ID; response should be mocked with a 3rd party API or your own very basic Backend MOCK API (you can use anything). The API `response` should be used to pre-fill / override (depending of the status of the field) `Company name` field's value on the form.
 
 ### Technical Requirements
 * Use a 3rd party tool to create a simple MOCK API (example of a 3rd party provider -> https://www.mockaroo.com/apis; or -> https://www.mocks-server.org/); or you can create a very basic Backend application that has 1 endpoint (example route: /api/company/all) that'd return hard-coded JSON response with random company data. (you can use any tech you want: NodeJS(Express) and so on.)
